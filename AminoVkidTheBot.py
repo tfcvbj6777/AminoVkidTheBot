@@ -273,7 +273,7 @@ def reboot(data):
 
 @client.command("comment")
 def comment_profile(data):
-	data.subClient.comment(message="Роспись от https://youtube.com/channel/UCJ61JlXJckmO6yJr8BDRuGQ 😎 Желаю всего Лучшего!", userId=data.authorId)
+	data.subClient.comment(message="Роспись от Эндрю. Ты самый лучший человек!", userId=data.authorId)
 	data.subClient.send_message(data.chatId, message="Бот оставил вам роспись на стене!")
 
 @client.command("msgtypes")
